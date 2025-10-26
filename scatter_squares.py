@@ -14,5 +14,6 @@ ax.set_ylabel("Squae of Value", fontsize=14)
 
 # Задание диапазона для каждой оси.
 ax.axis([0, 1100, 0, 1_000_000])
+ax.ticklabel_format(style='plain')
 
 plt.show()
