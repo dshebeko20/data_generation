@@ -5,7 +5,7 @@ y_values = [x**2 for x in x_values]
 
 plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, c=(0, 0.8, 0), s=10)
+ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Reds, s=10)
 
 # Заданиие заголовка диаграммы и меток осей.
 ax.set_title("Square numbers", fontsize=24)
