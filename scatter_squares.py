@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from pathlib import Path
 
 x_values = range(1, 1001)
 y_values = [x**2 for x in x_values]
@@ -17,6 +16,5 @@ ax.set_ylabel("Squae of Value", fontsize=14)
 ax.axis([0, 1100, 0, 1_000_000])
 ax.ticklabel_format(style='plain')
 
-path = Path('C:/Users/dmshebeko/Desktop/python_work/squares_plor_2.png')
 
-plt.savefig(path, bbox_inches='tight')
+plt.savefig('squares_plon.png', bbox_inches='tight')
